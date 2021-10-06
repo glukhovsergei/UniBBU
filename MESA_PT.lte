@@ -1,0 +1,796 @@
+! T1AMIDDLE
+% 0 sto dnux1
+% 0 sto dnuy1
+% 8.514442 sto betax1
+% -1.864562e-02 sto alphax1
+% 8.586089 sto betay1
+% -3.845564e-02 sto alphay1
+% alphax1 alphax1 * 1 + betax1 / sto gammax1
+% alphay1 alphay1 * 1 + betay1 / sto gammay1
+% 2 pi * dnux1 * cos sto cx1
+% 2 pi * dnuy1 * cos sto cy1
+% 2 pi * dnux1 * sin sto sx1
+% 2 pi * dnuy1 * sin sto sy1
+PT1: EMATRIX, R11 = "alphax1 sx1 * cx1 +", R12 = "betax1 sx1 *", R21 = "gammax1 sx1 * -1 *", R22 = "alphax1 sx1 * -1 * cx1 +", R33 = "alphay1 sy1 * cy1 +", R34 = "betay1 sy1 *", R43 = "gammay1 sy1 * -1 *", R44 = "alphay1 sy1 * -1 * cy1 +", R55=1, R66=1
+% 6.652205 sto betax1
+% 5.885241e-02 sto alphax1
+% 1.242628e+01 sto betay1
+% -1.853120e-01 sto alphay1
+% alphax1 alphax1 * 1 + betax1 / sto gammax1
+% alphay1 alphay1 * 1 + betay1 / sto gammay1
+% 2 pi * dnux1 * cos sto cx1
+% 2 pi * dnuy1 * cos sto cy1
+% 2 pi * dnux1 * sin sto sx1
+% 2 pi * dnuy1 * sin sto sy1
+PT1D: EMATRIX, R11 = "alphax1 sx1 * cx1 +", R12 = "betax1 sx1 *", R21 = "gammax1 sx1 * -1 *", R22 = "alphax1 sx1 * -1 * cx1 +", R33 = "alphay1 sy1 * cy1 +", R34 = "betay1 sy1 *", R43 = "gammay1 sy1 * -1 *", R44 = "alphay1 sy1 * -1 * cy1 +", R55=1, R66=1
+
+! T2AMIDDLE
+% 0 sto dnux2
+% 0 sto dnuy2
+% 3.925878e-01 sto betax2
+% 7.019218e-04 sto alphax2
+% 2.043189e+01 sto betay2
+% 6.900704e-02 sto alphay2
+% alphax2 alphax2 * 1 + betax2 / sto gammax2
+% alphay2 alphay2 * 1 + betay2 / sto gammay2
+% 2 pi * dnux2 * cos sto cx2
+% 2 pi * dnuy2 * cos sto cy2
+% 2 pi * dnux2 * sin sto sx2
+% 2 pi * dnuy2 * sin sto sy2
+PT2: EMATRIX, R11 = "alphax2 sx2 * cx2 +", R12 = "betax2 sx2 *", R21 = "gammax2 sx2 * -1 *", R22 = "alphax2 sx2 * -1 * cx2 +", R33 = "alphay2 sy2 * cy2 +", R34 = "betay2 sy2 *", R43 = "gammay2 sy2 * -1 *", R44 = "alphay2 sy2 * -1 * cy2 +", R55=1, R66=1
+% 4.727745e-01 sto betax2
+% -1.880423e-01 sto alphax2
+% 1.555233e+01 sto betay2
+% 2.280345e-01 sto alphay2
+% alphax2 alphax2 * 1 + betax2 / sto gammax2
+% alphay2 alphay2 * 1 + betay2 / sto gammay2
+% 2 pi * dnux2 * cos sto cx2
+% 2 pi * dnuy2 * cos sto cy2
+% 2 pi * dnux2 * sin sto sx2
+% 2 pi * dnuy2 * sin sto sy2
+PT2D: EMATRIX, R11 = "alphax2 sx2 * cx2 +", R12 = "betax2 sx2 *", R21 = "gammax2 sx2 * -1 *", R22 = "alphax2 sx2 * -1 * cx2 +", R33 = "alphay2 sy2 * cy2 +", R34 = "betay2 sy2 *", R43 = "gammay2 sy2 * -1 *", R44 = "alphay2 sy2 * -1 * cy2 +", R55=1, R66=1
+
+! T3AMIDDLE
+% 0 sto dnux3
+% 0 sto dnuy3
+% 2.327958 sto betax3
+% 2.141019e-01 sto alphax3
+% 1.779409 sto betay3
+% -6.769682e-03 sto alphay3
+% alphax3 alphax3 * 1 + betax3 / sto gammax3
+% alphay3 alphay3 * 1 + betay3 / sto gammay3
+% 2 pi * dnux3 * cos sto cx3
+% 2 pi * dnuy3 * cos sto cy3
+% 2 pi * dnux3 * sin sto sx3
+% 2 pi * dnuy3 * sin sto sy3
+PT3: EMATRIX, R11 = "alphax3 sx3 * cx3 +", R12 = "betax3 sx3 *", R21 = "gammax3 sx3 * -1 *", R22 = "alphax3 sx3 * -1 * cx3 +", R33 = "alphay3 sy3 * cy3 +", R34 = "betay3 sy3 *", R43 = "gammay3 sy3 * -1 *", R44 = "alphay3 sy3 * -1 * cy3 +", R55=1, R66=1
+% 2.813420 sto betax3
+% -7.558575e-02 sto alphax3
+% 2.705726 sto betay3
+% -3.427355e-03 sto alphay3
+% alphax3 alphax3 * 1 + betax3 / sto gammax3
+% alphay3 alphay3 * 1 + betay3 / sto gammay3
+% 2 pi * dnux3 * cos sto cx3
+% 2 pi * dnuy3 * cos sto cy3
+% 2 pi * dnux3 * sin sto sx3
+% 2 pi * dnuy3 * sin sto sy3
+PT3D: EMATRIX, R11 = "alphax3 sx3 * cx3 +", R12 = "betax3 sx3 *", R21 = "gammax3 sx3 * -1 *", R22 = "alphax3 sx3 * -1 * cx3 +", R33 = "alphay3 sy3 * cy3 +", R34 = "betay3 sy3 *", R43 = "gammay3 sy3 * -1 *", R44 = "alphay3 sy3 * -1 * cy3 +", R55=1, R66=1
+
+!T1AMIDDLE
+% 0 sto phi1
+% 2 pi * phi1 * cos sto crot1
+% 2 pi * phi1 * sin sto srot1
+% 8.514442 sto betax1
+% -1.864562e-02 sto alphax1
+% 8.586089 sto betay1
+% -3.845564e-02 sto alphay1
+% betax1 sqrt sto sbetax1
+% betay1 sqrt sto sbetay1
+% alphay1 alphax1 - sbetax1 / sbetay1 / srot1 * sto rottmp1
+BR1: EMATRIX, R11 = "crot1", R13 = "sbetax1 sbetay1 / srot1 *", R22 = "crot1", R23 = "rottmp1", R24 = "sbetay1 sbetax1 / srot1 *", R31 = "-sbetay1 sbetax1 / srot1 *", R33 = "crot1", R41 = "rottmp1", R42 = "-sbetax1 sbetay1 / srot1 *", R44 = "crot1",  R55=1, R66=1
+% 6.652205 sto betax1
+% 5.885241e-02 sto alphax1
+% 1.242628e+01 sto betay1
+% -1.853120e-01 sto alphay1
+% betax1 sqrt sto sbetax1
+% betay1 sqrt sto sbetay1
+% alphay1 alphax1 - sbetax1 / sbetay1 / srot1 * sto rottmp1
+BR1D: EMATRIX, R11 = "crot1", R13 = "sbetax1 sbetay1 / srot1 *", R22 = "crot1", R23 = "rottmp1", R24 = "sbetay1 sbetax1 / srot1 *", R31 = "-sbetay1 sbetax1 / srot1 *", R33 = "crot1", R41 = "rottmp1", R42 = "-sbetax1 sbetay1 / srot1 *", R44 = "crot1",  R55=1, R66=1
+
+!T2AMIDDLE
+% 0 sto phi2
+% 2 pi * phi2 * cos sto crot2
+% 2 pi * phi2 * sin sto srot2
+% 3.925878e-01 sto betax2
+% 7.019218e-04 sto alphax2
+% 2.043189e+01 sto betay2
+% 6.900704e-02 sto alphay2
+% betax2 sqrt sto sbetax2
+% betay2 sqrt sto sbetay2
+% alphay2 alphax2 - sbetax2 / sbetay2 / srot2 * sto rottmp2
+BR2: EMATRIX, R11 = "crot2", R13 = "sbetax2 sbetay2 / srot2 *", R22 = "crot2", R23 = "rottmp2", R24 = "sbetay2 sbetax2 / srot2 *", R31 = "-sbetay2 sbetax2 / srot2 *", R33 = "crot2", R41 = "rottmp2", R42 = "-sbetax2 sbetay2 / srot2 *", R44 = "crot2",  R55=1, R66=1
+% 4.727745e-01 sto betax2
+% -1.880423e-01 sto alphax2
+% 1.555233e+01 sto betay2
+% 2.280345e-01 sto alphay2
+% betax2 sqrt sto sbetax2
+% betay2 sqrt sto sbetay2
+% alphay2 alphax2 - sbetax2 / sbetay2 / srot2 * sto rottmp2
+BR2D: EMATRIX, R11 = "crot2", R13 = "sbetax2 sbetay2 / srot2 *", R22 = "crot2", R23 = "rottmp2", R24 = "sbetay2 sbetax2 / srot2 *", R31 = "-sbetay2 sbetax2 / srot2 *", R33 = "crot2", R41 = "rottmp2", R42 = "-sbetax2 sbetay2 / srot2 *", R44 = "crot2",  R55=1, R66=1
+
+!T3AMIDDLE
+% 0 sto phi3
+% 2 pi * phi3 * cos sto crot3
+% 2 pi * phi3 * sin sto srot3
+% 2.327958 sto betax3
+% 2.141019e-01 sto alphax3
+% 1.779409 sto betay3
+% -6.769682e-03 sto alphay3
+% betax3 sqrt sto sbetax3
+% betay3 sqrt sto sbetay3
+% alphay3 alphax3 - sbetax3 / sbetay3 / srot3 * sto rottmp3
+BR3: EMATRIX, R11 = "crot3", R13 = "sbetax3 sbetay3 / srot3 *", R22 = "crot3", R23 = "rottmp3", R24 = "sbetay3 sbetax3 / srot3 *", R31 = "-sbetay3 sbetax3 / srot3 *", R33 = "crot3", R41 = "rottmp3", R42 = "-sbetax3 sbetay3 / srot3 *", R44 = "crot3",  R55=1, R66=1
+% 2.813420 sto betax3
+% -7.558575e-02 sto alphax3
+% 2.705726 sto betay3
+% -3.427355e-03 sto alphay3
+% betax3 sqrt sto sbetax3
+% betay3 sqrt sto sbetay3
+% alphay3 alphax3 - sbetax3 / sbetay3 / srot3 * sto rottmp3
+BR3D: EMATRIX, R11 = "crot3", R13 = "sbetax3 sbetay3 / srot3 *", R22 = "crot3", R23 = "rottmp3", R24 = "sbetay3 sbetax3 / srot3 *", R31 = "-sbetay3 sbetax3 / srot3 *", R33 = "crot3", R41 = "rottmp3", R42 = "-sbetax3 sbetay3 / srot3 *", R44 = "crot3",  R55=1, R66=1
+
+% 0 sto dummy
+
+! Injection arc of MESA (5 MeV)
+
+Q: charge, total = 7.7e-12
+
+! Cryomodules
+ 
+% 0.2563            sto cell_l1
+% 0.1154            sto cell_l2
+% 0.2193            sto cell_l3
+
+% 0.0507            sto drilen
+% 0.2982            sto drilen1
+
+% 15.813e6          sto vpeak
+% 46.956            sto phase1_acc 
+% 46.956 86.0939 +  sto phase2_acc
+% 46.956 180.0 +    sto phase1_dcc 
+% 133.0499 180.0 +  sto phase2_dcc
+ 
+% 1.3e9            sto freq1
+
+Cryo_Drift: drift, l = "drilen"
+Drift_BL_Linac: drift, l = "drilen1"
+MCAVITY: MARK
+
+!===========================!
+! Nine-cell SRF cavity
+!===========================!
+
+Linac_I_Cell1: rfca, l = "cell_l1", phase = "phase1_acc ", volt = " vpeak cell_l1 * 0.54 *", N_kicks=520, phase_reference =0,&
+            freq = "freq1", change_p0 =1, END1_FOCUS = 1, END2_FOCUS = 1, BODY_FOCUS_MODEL = SRS
+
+Linac_M_Cell1: rfca, l = "cell_l2", phase = "phase1_acc ", volt = " vpeak cell_l2 *",phase_reference =0,N_kicks=520,&
+            freq = "freq1", change_p0 =1, END1_FOCUS = 1, END2_FOCUS = 1, BODY_FOCUS_MODEL = SRS
+
+Linac_M_Half1Cell1: rfca, l = "cell_l2 2 /", phase = "phase1_acc ", volt = " vpeak cell_l2 *",phase_reference =0,N_kicks=520,&
+            freq = "freq1", change_p0 =1, END1_FOCUS = 1, END2_FOCUS = 0, BODY_FOCUS_MODEL = SRS
+
+Linac_M_Half2Cell1: rfca, l = "cell_l2 2 /", phase = "phase1_acc ", volt = " vpeak cell_l2 *",phase_reference =0,N_kicks=520,&
+            freq = "freq1", change_p0 =1, END1_FOCUS = 0, END2_FOCUS = 1, BODY_FOCUS_MODEL = SRS
+
+Linac_F_Cell1: rfca, l = "cell_l3", phase ="phase1_acc ", volt = " vpeak cell_l3 * 0.62 * ",phase_reference =0,N_kicks=520,&
+            freq = "freq1", change_p0 =1, END1_FOCUS = 1, END2_FOCUS = 1, BODY_FOCUS_MODEL = SRS
+
+!First_Linac: line = (Linac_I_Cell1, 7*Linac_M_Cell1, Linac_F_Cell1)
+First_Linac: line = (Linac_I_Cell1, 3*Linac_M_Cell1, Linac_M_Half1Cell1, MCAVITY, Linac_M_Half2Cell1, 3*Linac_M_Cell1, Linac_F_Cell1)
+
+!==========================!
+! 2nd Nine-cell SRf cavity 
+!==========================!
+
+Linac_I_Cell2: rfca, l = "cell_l3", phase = "phase2_acc ", volt = " vpeak cell_l3 * 0.62 * ",phase_reference =0,N_kicks=520,&
+            freq = "freq1", change_p0 =1, END1_FOCUS = 1, END2_FOCUS = 1, BODY_FOCUS_MODEL = SRS
+
+Linac_M_Cell2: rfca, l = "cell_l2", phase = "phase2_acc ", volt = " vpeak cell_l2 *",phase_reference =0,N_kicks=520,&
+            freq = "freq1", change_p0 =1, END1_FOCUS = 1, END2_FOCUS = 1, BODY_FOCUS_MODEL = SRS
+
+Linac_M_Half1Cell2: rfca, l = "cell_l2 2 /", phase = "phase2_acc ", volt = " vpeak cell_l2 *",phase_reference =0,N_kicks=520,&
+            freq = "freq1", change_p0 =1, END1_FOCUS = 1, END2_FOCUS = 0, BODY_FOCUS_MODEL = SRS
+
+Linac_M_Half2Cell2: rfca, l = "cell_l2 2 /", phase = "phase2_acc ", volt = " vpeak cell_l2 *",phase_reference =0,N_kicks=520,&
+            freq = "freq1", change_p0 =1, END1_FOCUS = 0, END2_FOCUS = 1, BODY_FOCUS_MODEL = SRS
+
+Linac_F_Cell2: rfca, l = "cell_l1", phase = "phase2_acc", volt = " vpeak cell_l1 * 0.54 *",phase_reference =0,N_kicks=520,&
+            freq = "freq1", change_p0 =1, END1_FOCUS = 1, END2_FOCUS = 1, BODY_FOCUS_MODEL = SRS
+
+!Second_Linac: line = (Linac_I_Cell2, 7*Linac_M_Cell2, Linac_F_Cell2) 
+Second_Linac: line = (Linac_I_Cell2, 3*Linac_M_Cell2, Linac_M_Half1Cell2, MCAVITY, Linac_M_Half2Cell2, 3*Linac_M_Cell2, Linac_F_Cell2) 
+
+!======================!
+! For acceleration
+!======================!
+
+Cryo_Module_A: line = (Drift_BL_Linac, First_Linac, Cryo_Drift, Cryo_Drift, Second_Linac, Drift_BL_Linac)
+Cryo_Module_A14: line = (Drift_BL_Linac, Linac_I_Cell1, 3*Linac_M_Cell1, Linac_M_Half1Cell1, MCAVITY)
+Cryo_Module_A34: line = (Drift_BL_Linac, First_Linac, Cryo_Drift, Cryo_Drift, Linac_I_Cell2, 3*Linac_M_Cell2, Linac_M_Half1Cell2, MCAVITY)
+
+
+!=====================!
+! for decceleration
+!=====================!
+
+!===========================!
+! Nine-cell SRF cavity
+!===========================!
+
+Linac_I_Cell1_d: rfca, l = "cell_l1", phase = "phase1_dcc ", volt = " vpeak cell_l1 * 0.54 *", phase_reference =0,&
+            freq = "freq1", change_p0 =1, END1_FOCUS = 1, END2_FOCUS = 1, BODY_FOCUS_MODEL = SRS
+
+Linac_M_Cell1_d: rfca, l = "cell_l2", phase = "phase1_dcc ", volt = " vpeak cell_l2 *",phase_reference =0,&
+            freq = "freq1", change_p0 =1, END1_FOCUS = 1, END2_FOCUS = 1, BODY_FOCUS_MODEL = SRS
+
+Linac_M_Half1Cell1_d: rfca, l = "cell_l2 2 /", phase = "phase1_dcc ", volt = " vpeak cell_l2 *",phase_reference =0,&
+            freq = "freq1", change_p0 =1, END1_FOCUS = 1, END2_FOCUS = 0, BODY_FOCUS_MODEL = SRS
+
+Linac_M_Half2Cell1_d: rfca, l = "cell_l2 2 /", phase = "phase1_dcc ", volt = " vpeak cell_l2 *",phase_reference =0,&
+            freq = "freq1", change_p0 =1, END1_FOCUS = 0, END2_FOCUS = 1, BODY_FOCUS_MODEL = SRS
+
+Linac_F_Cell1_d: rfca, l = "cell_l3", phase ="phase1_dcc ", volt = " vpeak cell_l3 * 0.62 * ",phase_reference =0,&
+            freq = "freq1", change_p0 =1, END1_FOCUS = 1, END2_FOCUS = 1, BODY_FOCUS_MODEL = SRS
+
+!First_Linac_d: line = (Linac_I_Cell1_d, 7*Linac_M_Cell1_d, Linac_F_Cell1_d)
+First_Linac_d: line = (Linac_I_Cell1_d, 3*Linac_M_Cell1_d, Linac_M_Half1Cell1_d, MCAVITY, Linac_M_Half2Cell1_d, 3*Linac_M_Cell1_d, Linac_F_Cell1_d)
+
+!==========================!
+! 2nd Nine-cell SRf cavity 
+!==========================!
+
+Linac_I_Cell2_d: rfca, l = "cell_l3", phase = "phase2_dcc ", volt = " vpeak cell_l3 * 0.62 * ",phase_reference =0,&
+            freq = "freq1", change_p0 =1, END1_FOCUS = 1, END2_FOCUS = 1, BODY_FOCUS_MODEL = SRS
+
+Linac_M_Cell2_d: rfca, l = "cell_l2", phase = "phase2_dcc ", volt = " vpeak cell_l2 *",phase_reference =0,&
+            freq = "freq1", change_p0 =1, END1_FOCUS = 1, END2_FOCUS = 1, BODY_FOCUS_MODEL = SRS
+
+Linac_M_Half1Cell2_d: rfca, l = "cell_l2 2 /", phase = "phase2_dcc ", volt = " vpeak cell_l2 *",phase_reference =0,&
+            freq = "freq1", change_p0 =1, END1_FOCUS = 1, END2_FOCUS = 0, BODY_FOCUS_MODEL = SRS
+
+Linac_M_Half2Cell2_d: rfca, l = "cell_l2 2 /", phase = "phase2_dcc ", volt = " vpeak cell_l2 *",phase_reference =0,&
+            freq = "freq1", change_p0 =1, END1_FOCUS = 0, END2_FOCUS = 1, BODY_FOCUS_MODEL = SRS
+
+Linac_F_Cell2_d: rfca, l = "cell_l1", phase = "phase2_dcc", volt = " vpeak cell_l1 * 0.54 *",phase_reference =0,&
+            freq = "freq1", change_p0 =1, END1_FOCUS = 1, END2_FOCUS = 1, BODY_FOCUS_MODEL = SRS
+
+!Second_Linac_d: line = (Linac_I_Cell2_d, 7*Linac_M_Cell2_d, Linac_F_Cell2_d) 
+Second_Linac_d: line = (Linac_I_Cell2_d, 3*Linac_M_Cell2_d, Linac_M_Half1Cell2_d, MCAVITY, Linac_M_Half2Cell2_d, 3*Linac_M_Cell2_d, Linac_F_Cell2_d) 
+
+Cryo_Module_D: line = ( Drift_BL_Linac, First_Linac_d, Cryo_Drift, Cryo_Drift, Second_Linac_d, Drift_BL_Linac)
+Cryo_Module_D14: line = ( Drift_BL_Linac, Linac_I_Cell1_d, 3*Linac_M_Cell1_d, Linac_M_Half1Cell1_d, MCAVITY)
+Cryo_Module_D34: line = ( Drift_BL_Linac, First_Linac_d, Cryo_Drift, Cryo_Drift, Linac_I_Cell2_d, 3*Linac_M_Cell2_d, Linac_M_Half1Cell2_d, MCAVITY)
+
+
+
+
+
+
+!!--------------------------
+!! T1
+!!--------------------------
+
+T1START: MARK
+T1LSTART: MARK
+T1LD1: DRIFT, L=0.6
+T1LQUAD1: QUAD, L=0.2, K1 = 8.993773739999998
+T1LD2: DRIFT, L=0.05
+T1LQUAD2: QUAD, L=0.2, K1 = -8.993773739999998
+T1LD3: DRIFT, L=0.5
+T1LEND: MARK
+T1SSTART: MARK
+t1sdip1: sbend,l= 0.6700189846,angle= 0.6769836773,tilt= -1.570796327,e1= 0,e2= 0.6769836773,k2= 2.8,hgap= 0.02,fint= 0.45
+T1SD1: DRIFT, L=1.154636901
+t1sdip2: sbend,l= 0.4863041017,angle= 0.6769836773,tilt= 1.570796327,e1= 0.6769836773,k2= 2.8,hgap= 0.02,fint= 0.45
+T1SD2: DRIFT, L=0.5
+T1SQUAD1: QUAD, L=0.2, K1 = -8.850947745
+T1SD3: DRIFT, L=0.4
+T1SQUAD2: QUAD, L=0.1, K1 = 10.5812824
+T1SMIDDLE: MARK
+T1SQUAD2B: QUAD, L=0.1, K1 = 10.5812824
+T1SQUAD3: QUAD, L=0.2, K1 = -8.850947745
+t1sdip3: sbend,l= 0.4863041017,angle= 0.6769836773,tilt= -1.570796327,e2= 0.6769836773,k2= 2.8,hgap= 0.02,fint= 0.45
+T1SD4: DRIFT, L=1.154636901
+t1sdip4: sbend,l= 0.6700189846,angle= 0.6769836773,tilt= 1.570796327,e1= 0.6769836773,k2= 2.8,hgap= 0.02,fint= 0.45
+T1SEND: MARK
+T1ASTART: MARK
+T1MD1: DRIFT, L=0.5
+T1MQUAD1: QUAD, L=0.2, K1 = -7.68960199
+T1MD2: DRIFT, L=0.05
+T1MQUAD2: QUAD, L=0.2, K1 = 5.759104044999999
+T1MD3: DRIFT, L=0.5145801526
+T1ADIP1: SBEND, L=0.5497787144, ANGLE = 0.7853981634, FINT = 0.45, HGAP = 0.02, K2 = 2.8
+T1BD1: DRIFT, L=0.576
+T1BQUAD1: QUAD, L=0.2, K1 = -2.1063505205
+T1BD2: DRIFT, L=0.3
+T1BQUAD2: QUAD, L=0.2, K1 = 1.961441556
+T1BD3: DRIFT, L=0.3
+T1BQUAD3: QUAD, L=0.2, K1 = -2.1063505205
+T1BD4: DRIFT, L=0.576
+T1ADIP2: SBEND, L=0.5497787144, ANGLE = 0.7853981634, FINT = 0.45, HGAP = 0.02, K2 = 2.8
+T1BD5: DRIFT, L=0.476
+T1BQUAD4: QUAD, L=0.2, K1 = -1.8599999999999999
+T1BD6: DRIFT, L=3.110884851
+T1AMIDDLE: MARK
+T1BQUAD5: QUAD, L=0.2, K1 = -1.8599999999999999
+T1ADIP3: SBEND, L=0.5497787144, ANGLE = 0.7853981634, FINT = 0.45, HGAP = 0.02, K2 = 2.8
+T1BQUAD6: QUAD, L=0.2, K1 = -2.1063505205
+T1BQUAD7: QUAD, L=0.2, K1 = 1.961441556
+T1BQUAD8: QUAD, L=0.2, K1 = -2.1063505205
+T1ADIP4: SBEND, L=0.5497787144, ANGLE = 0.7853981634, FINT = 0.45, HGAP = 0.02, K2 = 2.8
+T1MQUAD3: QUAD, L=0.2, K1 = 5.759104044999999
+T1MQUAD4: QUAD, L=0.2, K1 = -7.68960199
+T1AEND: MARK
+T1SSTART2: MARK
+t1sdip5: sbend,l= 0.6700189846,angle= 0.6769836773,tilt= 1.570796327,e2= 0.6769836773,k2= 2.8,hgap= 0.02,fint= 0.45
+t1sdip6: sbend,l= 0.4863041017,angle= 0.6769836773,tilt= -1.570796327,e1= 0.6769836773,k2= 2.8,hgap= 0.02,fint= 0.45
+T1SQUAD4: QUAD, L=0.2, K1 = -8.850947745
+T1SQUAD5: QUAD, L=0.1, K1 = 10.5812824
+T1SMIDDLE2: MARK
+T1SQUAD5B: QUAD, L=0.1, K1 = 10.5812824
+T1SQUAD6: QUAD, L=0.2, K1 = -8.850947745
+t1sdip7: sbend,l= 0.4863041017,angle= 0.6769836773,tilt= 1.570796327,e2= 0.6769836773,k2= 2.8,hgap= 0.02,fint= 0.45
+t1sdip8: sbend,l= 0.6700189846,angle= 0.6769836773,tilt= -1.570796327,e1= 0.6769836773,e2= 0,k2= 2.8,hgap= 0.02,fint= 0.45
+T1SEND2: MARK
+T1LSTART2: MARK
+T1LQUAD3: QUAD, L=0.2, K1 = -8.993773739999998
+T1LQUAD4: QUAD, L=0.2, K1 = 8.993773739999998
+T1LEND2: MARK
+T1END: MARK
+T1$END: MARK
+
+!!--------------------------
+!! T2
+!!--------------------------
+
+T2START: MARK
+T2C1START: MARK
+T2CD1: DRIFT, L=0.6
+T2CQUAD1: QUAD, L=0.0925, K1 = 1.0901543924324324
+T2CD2: DRIFT, L=0.065
+T2CQUAD2: QUAD, L=0.0925, K1 = -1.0901543924324324
+T2CD3: DRIFT, L=0.5
+t2cdip1: sbend,l= 0.4062269004,angle= 0.07941874885,tilt= 3.141592654,e2= 0.07941874885,k2= 2.8,hgap= 0.025,fint= 0.45
+T2CD4: DRIFT, L=0.1875912899
+t2cdip2: sbend,l= 0.4058264796,angle= 0.1588374977,tilt= 6.283185307,e1= 0.07941874885,e2= 0.07941874885,k2= 2.8,hgap= 0.025,fint= 0.45
+t2cdip3: sbend,l= 0.4062269004,angle= 0.07941874885,tilt= 3.141592654,e1= 0.07941874885,k2= 2.8,hgap= 0.025,fint= 0.45
+T2C1END: MARK
+T2LSTART: MARK
+T2LD1: DRIFT, L=0.5
+T2LQUAD1: QUAD, L=0.2, K1 = 5.99584916
+T2LD2: DRIFT, L=0.05
+T2LQUAD2: QUAD, L=0.2, K1 = -5.99584916
+T2LD3: DRIFT, L=2
+T2LQUAD3: QUAD, L=0.2, K1 = 5.99584916
+T2LQUAD4: QUAD, L=0.2, K1 = -5.99584916
+T2LD4: DRIFT, L=0.5
+T2LEND: MARK
+T2SSTART: MARK
+t2sdip1: sbend,l= 0.6700189846,angle= 0.6769836773,tilt= -1.570796327,e1= 0,e2= 0.6769836773,k2= 2.8,hgap= 0.02,fint= 0.45
+T2SD1: DRIFT, L=1.154636901
+t2sdip2: sbend,l= 0.4863041017,angle= 0.6769836773,tilt= 1.570796327,e1= 0.6769836773,k2= 2.8,hgap= 0.02,fint= 0.45
+T2SD2: DRIFT, L=0.5
+T2SQUAD1: QUAD, L=0.2, K1 = -8.850031529999999
+T2SD3: DRIFT, L=0.4
+T2SQUAD2: QUAD, L=0.1, K1 = 10.390417209999999
+T2SMIDDLE: MARK
+T2SQUAD2B: QUAD, L=0.1, K1 = 10.390417209999999
+T2SQUAD3: QUAD, L=0.2, K1 = -8.850031529999999
+t2sdip3: sbend,l= 0.4863041017,angle= 0.6769836773,tilt= -1.570796327,e2= 0.6769836773,k2= 2.8,hgap= 0.02,fint= 0.45
+T2SD4: DRIFT, L=1.154636901
+t2sdip4: sbend,l= 0.6700189846,angle= 0.6769836773,tilt= 1.570796327,e1= 0.6769836773,k2= 2.8,hgap= 0.02,fint= 0.45
+T2SEND: MARK
+T2ASTART: MARK
+T2MD1: DRIFT, L=0.5
+T2MQUAD1: QUAD, L=0.2, K1 = -8.843175819999999
+T2MD2: DRIFT, L=0.05
+T2MQUAD2: QUAD, L=0.2, K1 = 7.85878113
+T2MD3: DRIFT, L=0.526836003
+T2ADIP1: SBEND, L=0.5497787144, ANGLE = 0.7853981634, FINT = 0.4, HGAP = 0.02, K2 = 2.8
+T2BD1: DRIFT, L=0.576
+T2BQUAD1: QUAD, L=0.2, K1 = -1.523568929
+T2BD2: DRIFT, L=0.3
+T2BQUAD2: QUAD, L=0.2, K1 = 1.0507412374999998
+T2BD3: DRIFT, L=0.3
+T2BQUAD3: QUAD, L=0.2, K1 = -1.523568929
+T2BD4: DRIFT, L=0.576
+T2ADIP2: SBEND, L=0.5497787144, ANGLE = 0.7853981634, FINT = 0.4, HGAP = 0.02, K2 = 2.8
+T2BD5: DRIFT, L=0.476
+T2BQUAD4: QUAD, L=0.2, K1 = -1.9565
+T2BD6: DRIFT, L=3.110884851
+T2AMIDDLE: MARK
+T2BQUAD5: QUAD, L=0.2, K1 = -1.9565
+T2ADIP3: SBEND, L=0.5497787144, ANGLE = 0.7853981634, FINT = 0.4, HGAP = 0.02, K2 = 2.8
+T2BQUAD6: QUAD, L=0.2, K1 = -1.523568929
+T2BQUAD7: QUAD, L=0.2, K1 = 1.0507412374999998
+T2BQUAD8: QUAD, L=0.2, K1 = -1.523568929
+T2ADIP4: SBEND, L=0.5497787144, ANGLE = 0.7853981634, FINT = 0.4, HGAP = 0.02, K2 = 2.8
+T2MQUAD3: QUAD, L=0.2, K1 = 7.85878113
+T2MQUAD4: QUAD, L=0.2, K1 = -8.843175819999999
+T2AEND: MARK
+T2SSTART2: MARK
+t2sdip5: sbend,l= 0.6700189846,angle= 0.6769836773,tilt= 1.570796327,e2= 0.6769836773,k2= 2.8,hgap= 0.02,fint= 0.45;
+t2sdip6: sbend,l= 0.4863041017,angle= 0.6769836773,tilt= -1.570796327,e1= 0.6769836773,k2= 2.8,hgap= 0.02,fint= 0.45;
+T2SQUAD4: QUAD, L=0.2, K1 = -8.850031529999999
+T2SQUAD5: QUAD, L=0.1, K1 = 10.390417209999999
+T2SMIDDLE2: MARK
+T2SQUAD5B: QUAD, L=0.1, K1 = 10.390417209999999
+T2SQUAD6: QUAD, L=0.2, K1 = -8.850031529999999
+t2sdip7: sbend,l= 0.4863041017,angle= 0.6769836773,tilt= 1.570796327,e2= 0.6769836773,k2= 2.8,hgap= 0.02,fint= 0.45
+t2sdip8: sbend,l= 0.6700189846,angle= 0.6769836773,tilt= -1.570796327,e1= 0.6769836773,e2= 0,k2= 2.8,hgap= 0.02,fint= 0.45
+T2SEND2: MARK
+T2LSTART2: MARK
+T2LQUAD5: QUAD, L=0.2, K1 = -5.99584916
+T2LQUAD6: QUAD, L=0.2, K1 = 5.99584916
+T2LQUAD7: QUAD, L=0.2, K1 = -5.99584916
+T2LQUAD8: QUAD, L=0.2, K1 = 5.99584916
+T2LEND2: MARK
+T2C2START: MARK
+t2cdip4: sbend,l= 0.4062269004,angle= 0.07941874885,tilt= 0,e2= 0.07941874885,k2= 2.8,hgap= 0.025,fint= 0.45;
+t2cdip5: sbend,l= 0.4058264796,angle= 0.1588374977,tilt= 3.141592654,e1= 0.07941874885,e2= 0.07941874885,k2= 2.8,hgap= 0.025,fint= 0.45;
+t2cdip6: sbend,l= 0.4062269004,angle= 0.07941874885,tilt= 0,e1= 0.07941874885,k2= 2.8,hgap= 0.025,fint= 0.45;
+T2CQUAD3: QUAD, L=0.0925, K1 = -1.0901543924324324
+T2CQUAD4: QUAD, L=0.0925, K1 = 1.0901543924324324
+T2C2END: MARK
+T2END: MARK
+T2$END: MARK
+machine: LINE=(T2START,T2C1START,T2CD1,T2CQUAD1,T2CD2,T2CQUAD2,T2CD3,T2CDIP1,T2CD4,T2CDIP2,T2CD4,T2CDIP3,T2C1END,T2LSTART,T2LD1,T2LQUAD1,T2LD2,T2LQUAD2,T2LD3,T2LQUAD3,T2LD2,T2LQUAD4,T2LD4,T2LEND,T2SSTART,T2SDIP1,T2SD1,T2SDIP2,T2SD2,T2SQUAD1,T2SD3,T2SQUAD2,T2SMIDDLE,T2SQUAD2B,T2SD3,T2SQUAD3,T2SD2,T2SDIP3,T2SD4,T2SDIP4,T2SEND,T2ASTART,T2MD1,T2MQUAD1,T2MD2,T2MQUAD2,T2MD3,T2ADIP1,T2BD1,T2BQUAD1,T2BD2,T2BQUAD2,T2BD3,T2BQUAD3,T2BD4,T2ADIP2,T2BD5,T2BQUAD4,T2BD6,T2AMIDDLE,T2BD6,T2BQUAD5,T2BD5,T2ADIP3,T2BD4,T2BQUAD6,T2BD3,T2BQUAD7,T2BD2,T2BQUAD8,T2BD1,T2ADIP4,T2MD3,T2MQUAD3,T2MD2,T2MQUAD4,T2MD1,T2AEND,T2SSTART2,T2SDIP5,T2SD4,T2SDIP6,T2SD2,T2SQUAD4,T2SD3,T2SQUAD5,T2SMIDDLE2,T2SQUAD5B,T2SD3,T2SQUAD6,T2SD2,T2SDIP7,T2SD1,T2SDIP8,T2SEND2,T2LSTART2,T2LD4,T2LQUAD5,T2LD2,T2LQUAD6,T2LD3,T2LQUAD7,T2LD2,T2LQUAD8,T2LD1,T2LEND2,T2C2START,T2CDIP4,T2CD4,T2CDIP5,T2CD4,T2CDIP6,T2CD3,T2CQUAD3,T2CD2,T2CQUAD4,T2CD1,T2C2END,T2END,T2$END)
+
+!!--------------------------
+!! T3
+!!--------------------------
+
+T3START: MARK
+T3LSTART: MARK
+T3LD1: DRIFT, L=0.6
+T3LQUAD1: QUAD, L=0.2, K1 = 3.3726651524999998
+T3LD2: DRIFT, L=0.05
+T3LQUAD2: QUAD, L=0.2, K1 = -3.3726651524999998
+T3LD3: DRIFT, L=0.5
+T3LEND: MARK
+T3SSTART: MARK
+t3sdip1: sbend,l= 0.6258489915,angle= 0.2371329552,tilt= -1.570796327,e1= 0,e2= 0.2371329552,k2= 2.8,hgap= 0.02,fint= 0.45
+T3SD1: DRIFT, L=0.2571975484
+t3sdip2: sbend,l= 0.2678664641,angle= 0.2469800167,tilt= -1.570796327,e1= -0.2371329552,e2= 0.4841129719,k2= 2.8,hgap= 0.02,fint= 0.45
+T3SD2: DRIFT, L=0.4519323913
+t3sdip3: sbend,l= 0.468070184,angle= 0.4841129719,tilt= 1.570796327,e1= 0.4841129719,k2= 2.8,hgap= 0.02,fint= 0.45
+T3SD3: DRIFT, L=0.5
+T3SQUAD1: QUAD, L=0.2, K1 = -8.844955055
+T3SD4: DRIFT, L=0.4
+T3SQUAD2: QUAD, L=0.1, K1 = 9.338715136
+T3SMIDDLE: MARK
+T3SQUAD2B: QUAD, L=0.1, K1 = 9.338715136
+T3SD5: DRIFT, L=0.4
+T3SQUAD3: QUAD, L=0.2, K1 = -8.844955055
+T3SD6: DRIFT, L=0.5
+t3sdip4: sbend,l= 0.468070184,angle= 0.4841129719,tilt= -1.570796327,e2= 0.4841129719,k2= 2.8,hgap= 0.02,fint= 0.45
+T3SD7: DRIFT, L=0.4519323913
+t3sdip5: sbend,l= 0.2678664641,angle= 0.2469800167,tilt= 1.570796327,e1= 0.4841129719,e2= -0.2371329552,k2= 2.8,hgap= 0.02,fint= 0.45
+T3SD8: DRIFT, L=0.2571975484
+t3sdip6: sbend,l= 0.6258489915,angle= 0.2371329552,tilt= 1.570796327,e1= 0.2371329552,k2= 2.8,hgap= 0.02,fint= 0.45
+T3SEND: MARK
+T3ASTART: MARK
+T3MD1: DRIFT, L=0.5
+T3MQUAD1: QUAD, L=0.2, K1 = -3.7694626915
+T3MD2: DRIFT, L=0.05
+T3MQUAD2: QUAD, L=0.2, K1 = 2.5548285895
+T3MD3: DRIFT, L=0.5358168497
+T3ADIP1: SBEND, L=0.5497787144, ANGLE = 0.7853981634, FINT = 0.45, HGAP = 0.02, K2 = 2.8
+T3BD1: DRIFT, L=0.576
+T3BQUAD1: QUAD, L=0.2, K1 = -2.1434590875
+T3BD2: DRIFT, L=0.3
+T3BQUAD2: QUAD, L=0.2, K1 = 7.572169789999999
+T3BD3: DRIFT, L=0.3
+T3BQUAD3: QUAD, L=0.2, K1 = -2.1434590875
+T3BD4: DRIFT, L=0.576
+T3ADIP2: SBEND, L=0.5497787144, ANGLE = 0.7853981634, FINT = 0.45, HGAP = 0.02, K2 = 2.8
+T3BD5: DRIFT, L=0.476
+T3BQUAD4: QUAD, L=0.2, K1 = -1.8599999999999999
+T3BD6: DRIFT, L=3.110884851
+T3AMIDDLE: MARK
+T3BQUAD5: QUAD, L=0.2, K1 = -1.8599999999999999
+T3ADIP3: SBEND, L=0.5497787144, ANGLE = 0.7853981634, FINT = 0.45, HGAP = 0.02, K2 = 2.8
+T3BQUAD6: QUAD, L=0.2, K1 = -2.1434590875
+T3BQUAD7: QUAD, L=0.2, K1 = 7.572169789999999
+T3BQUAD8: QUAD, L=0.2, K1 = -2.1434590875
+T3ADIP4: SBEND, L=0.5497787144, ANGLE = 0.7853981634, FINT = 0.45, HGAP = 0.02, K2 = 2.8
+T3MQUAD3: QUAD, L=0.2, K1 = 2.5548285895
+T3MQUAD4: QUAD, L=0.2, K1 = -3.7694626915
+T3AEND: MARK
+T3SSTART2: MARK
+t3sdip7: sbend,l= 0.6258489915,angle= 0.2371329552,tilt= 1.570796327,e2= 0.2371329552,k2= 2.8,hgap= 0.02,fint= 0.45
+t3sdip8: sbend,l= 0.2678664641,angle= 0.2469800167,tilt= 1.570796327,e1= -0.2371329552,e2= 0.4841129719,k2= 2.8,hgap= 0.02,fint= 0.45
+t3sdip9: sbend,l= 0.468070184,angle= 0.4841129719,tilt= -1.570796327,e1= 0.4841129719,k2= 2.8,hgap= 0.02,fint= 0.45
+T3SQUAD4: QUAD, L=0.2, K1 = -8.844955055
+T3SQUAD5: QUAD, L=0.1, K1 = 9.338715136
+T3SMIDDLE2: MARK
+T3SQUAD5B: QUAD, L=0.1, K1 = 9.338715136
+T3SQUAD6: QUAD, L=0.2, K1 = -8.844955055
+t3sdip10: sbend,l= 0.468070184,angle= 0.4841129719,tilt= 1.570796327,e2= 0.4841129719,k2= 2.8,hgap= 0.02,fint= 0.45
+t3sdip11: sbend,l= 0.2678664641,angle= 0.2469800167,tilt= -1.570796327,e1= 0.4841129719,e2= -0.2371329552,k2= 2.8,hgap= 0.02,fint= 0.45
+t3sdip12: sbend,l= 0.6258489915,angle= 0.2371329552,tilt= -1.570796327,e1= 0.2371329552,e2= 0,k2= 2.8,hgap= 0.02,fint= 0.45
+T3SEND2: MARK
+T3LSTART2: MARK
+T3LQUAD3: QUAD, L=0.2, K1 = -3.3726651524999998
+T3LQUAD4: QUAD, L=0.2, K1 = 3.3726651524999998
+T3LEND2: MARK
+T3END: MARK
+T3$END: MARK
+
+!!--------------------------
+!! INTERN
+!!--------------------------
+
+INT$START: MARKER
+intstart: marker
+t4c1start: marker
+t4cquad1: quadrupole,l= 0.0925,k1=0.57103325333333333333333333333333
+t4cquad2: quadrupole,l= 0.0925,k1=-0.57103325333333333333333333333333
+t4cdip1: sbend,l=0.40591689019967563240521389826157,angle=0.04156854994364317792168089075899,tilt=0,e2=0.04156854994364317792168089075899,k2= 2.8,hgap= 0.025,fint= 0.45
+t4cdip2: sbend,l=0.4055167749801589486867267480415,angle=0.08313709988728635584336178151798,tilt=3.1415926535897932384626433832795,e1=0.04156854994364317792168089075899,e2=0.04156854994364317792168089075899,k2= 2.8,hgap= 0.025,fint= 0.45
+t4cdip3: sbend,l=0.40591689019967563240521389826157,angle=0.04156854994364317792168089075899,tilt=0,e1=0.04156854994364317792168089075899,k2= 2.8,hgap= 0.025,fint= 0.45
+t4c1end: marker
+t4lstart: marker
+t4lquad1: quadrupole,l=0.2,k1=2.99792458
+t4lquad2: quadrupole,l=0.2,k1=-2.99792458
+t4lquad3: quadrupole,l=0.2,k1=2.698132122
+t4lquad4: quadrupole,l=0.2,k1=-2.698132122
+t4lend: marker
+t4sstart: marker
+t4sdip1: sbend,l=0.63170276541335159324799626958969,angle=0.33433146995543482274870525073229,tilt=-1.5707963267948966192313216916398,e1=0,e2=0.33433146995543482274870525073229,k2=2.8,hgap=0.02,fint=0.45
+t4sdip2: sbend,l=0.26860268823572243961634490356435,angle=0.07873594957762100161472036366941,tilt=-1.5707963267948966192313216916398,e1=-0.33433146995543482274870525073229,e2=0.4130674195330558243634256144017,k2=2.8,hgap=0.02,fint=0.45
+t4sdip3: sbend,l=0.46305625332841393581569922276246,angle=0.41306741953305687156097681099945,tilt=1.5707963267948966192313216916398,e1=0.4130674195330558243634256144017,k2=2.8,hgap=0.02,fint=0.45
+t4squad1: quadrupole,l=0.2,k1=-8.840541666
+t4squad2: quadrupole,l=0.1,k1=8.422130856
+t4smiddle: marker
+t4squad2b: quadrupole,l=0.1,k1=8.422130856
+t4squad3: quadrupole,l=0.2,k1=-8.840541666
+t4sdip4: sbend,l=0.46305625332841393581569922276246,angle=0.41306741953305687156097681099945,tilt=-1.5707963267948966192313216916398,e2=0.4130674195330558243634256144017,k2=2.8,hgap=0.02,fint=0.45
+t4sdip5: sbend,l=0.26860268823572243961634490356436,angle=0.07873594957762100161472036366941,tilt=1.5707963267948966192313216916398,e1=0.4130674195330558243634256144017,e2=-0.33433146995543482274870525073229,k2=2.8,hgap=0.02,fint=0.45
+t4sdip6: sbend,l=0.63170276541335159324799626958969,angle=0.33433146995543482274870525073229,tilt=1.5707963267948966192313216916398,e1=0.33433146995543482274870525073229,k2=2.8,hgap=0.02,fint=0.45
+t4send: marker
+intm1start: marker
+intmquad1: quadrupole,l=0.2,k1=-4.777705213
+intmquad2: quadrupole,l=0.2,k1=5.548844253
+intm1end: marker
+inta1start: marker
+inta1mquad1: quadrupole,l=0.2,k1=8.658707154
+inta1mquad2: quadrupole,l=0.2,k1=-8.259328274
+inta1dip1: sbend,l=0.30243959011126896157686636860086,angle=0.39269908169872415480783042290994,e1=0.19634954084936207740391521145497,e2=0.19634954084936207740391521145497,k2=2.8,hgap=0.02,fint=0.45
+inta1bquad1: quadrupole,l=0.2,k1=0
+inta1bquad2: quadrupole,l=0.1,k1=17.44924674
+inta1middle: marker
+inta1bquad2b: quadrupole,l=0.1,k1=17.44924674
+inta1bquad3: quadrupole,l=0.2,k1=0
+inta1dip2: sbend,l=0.30243959011126896157686636860086,angle=0.39269908169872415480783042290994,e1=0.19634954084936207740391521145497,e2=0.19634954084936207740391521145497,k2=2.8,hgap=0.02,fint=0.45
+inta1mquad3: quadrupole,l=0.2,k1=-8.72885493
+inta1mquad4: quadrupole,l=0.2,k1=9.103820631
+inta1end: marker
+intexstart: marker
+intexquad1: quadrupole,l=0.2,k1=0
+intexquad2: quadrupole,l=0.2,k1=0
+intexquad3: quadrupole,l=0.2,k1=0
+intexmiddle: marker
+intexquad4: quadrupole,l=0.2,k1=0
+intexquad5: quadrupole,l=0.2,k1=0
+intexquad6: quadrupole,l=0.2,k1=0
+intexend: marker
+inta2start: marker
+inta2mquad1: quadrupole,l=0.2,k1=7.405244103
+inta2mquad2: quadrupole,l=0.2,k1=-7.77248513
+inta2dip1: sbend,l=0.55002827399568855643510673054784,angle=0.78539816339744830961566084581988,e1= 0,e2= 0,k2=2.8,hgap=0.02,fint=0.45
+inta2bquad1: quadrupole,l=0.2,k1=-12.90678266
+inta2bquad2: quadrupole,l=0.2,k1=16.19572391
+inta2bquad3: quadrupole,l=0.2,k1=-12.90678266
+inta2dip2: sbend,l=0.30243959011126896157686636860086,angle=0.39269908169872415480783042290994,e1=0.19634954084936207740391521145497,e2=0.19634954084936207740391521145497,k2=2.8,hgap=0.02,fint=0.45
+inta2bquad4: quadrupole,l=0.1,k1=4.73
+inta2middle: marker
+inta2bquad4b: quadrupole,l=0.1,k1=4.73
+inta2dip3: sbend,l=0.30243959011126896157686636860086,angle=0.39269908169872415480783042290994,e1=0.19634954084936207740391521145497,e2=0.19634954084936207740391521145497,k2=2.8,hgap=0.02,fint=0.45
+inta2bquad5: quadrupole,l=0.2,k1=-12.90678266
+inta2bquad6: quadrupole,l=0.2,k1=16.19572391
+inta2bquad7: quadrupole,l=0.2,k1=-12.90678266
+inta2dip4: sbend,l=0.55002827399568855643510673054784,angle=0.78539816339744830961566084581988,e1= 0,e2= 0,k2=2.8,hgap=0.02,fint=0.45
+inta2mquad3: quadrupole,l=0.2,k1=-9.788578309
+inta2mquad4: quadrupole,l=0.2,k1=8.708384452
+inta2end: marker
+intm2start: marker
+intwdip1: sbend,l=0.40061497285206475531957687314501,angle=0.09599310885968812673080299226687,e2=0.09599310885968812673080299226687,k2=0,hgap=0,fint=0
+intwdip2: sbend,l=0.20030748642603237765978843657251,angle=0.09599310885968812673080299226687,tilt=3.1415926535897932384626433832795,e1=0.09599310885968812673080299226687
+intwmiddle: marker
+intwdip3: sbend,l=0.20030748642603237765978843657251,angle=0.09599310885968812673080299226687,tilt=3.1415926535897932384626433832795,e2=0.09599310885968812673080299226687
+intwdip4: sbend,l=0.40061497285206475531957687314501,angle=0.09599310885968812673080299226687,e1=0.09599310885968812673080299226687,k2=0,hgap=0,fint=0
+intmquad3: quadrupole,l=0.2,k1=-5.938752675
+intmquad4: quadrupole,l=0.2,k1=4.857400279
+intmquad5: quadrupole,l=0.2,k1=5.548844253
+intmquad6: quadrupole,l=0.2,k1=-4.777705213
+intm2end: marker
+t4sstart2: marker
+t4sdip7: sbend,l=0.63170276541335159324799626958969,angle=0.33433146995543482274870525073229,tilt=1.5707963267948966192313216916398,e2=0.33433146995543482274870525073229,k2=2.8,hgap=0.02,fint=0.45
+t4sdip8: sbend,l=0.26860268823572243961634490356436,angle=0.07873594957762100161472036366941,tilt=1.5707963267948966192313216916398,e1=-0.33433146995543482274870525073229,e2=0.4130674195330558243634256144017,k2=2.8,hgap=0.02,fint=0.45
+t4sdip9: sbend,l=0.46305625332841393581569922276246,angle=0.41306741953305687156097681099945,tilt=-1.5707963267948966192313216916398,e1=0.4130674195330558243634256144017,k2=2.8,hgap=0.02,fint=0.45
+t4squad4: quadrupole,l=0.2,k1=-8.840859517
+t4squad5: quadrupole,l=0.1,k1=8.422130856
+t4smiddle2: marker
+t4squad5b: quadrupole,l=0.1,k1=8.422130856
+t4squad6: quadrupole,l=0.2,k1=-8.840541666
+t4sdip10: sbend,l=0.46305625332841393581569922276246,angle=0.41306741953305687156097681099945,tilt=1.5707963267948966192313216916398,e2=0.4130674195330558243634256144017,k2=2.8,hgap=0.02,fint=0.45
+t4sdip11: sbend,l=0.26860268823572243961634490356435,angle=0.07873594957762100161472036366941,tilt=-1.5707963267948966192313216916398,e1=0.4130674195330558243634256144017,e2=-0.33433146995543482274870525073229,k2=2.8,hgap=0.02,fint=0.45
+t4sdip12: sbend,l=0.63170276541335159324799626958969,angle=0.33433146995543482274870525073229,tilt=-1.5707963267948966192313216916398,e1=0.33433146995543482274870525073229,e2=0,k2=2.8,hgap=0.02,fint=0.45
+t4send2: marker
+t4lstart2: marker
+t4lquad5: quadrupole,l=0.2,k1=-2.698132122
+t4lquad6: quadrupole,l=0.2,k1=2.698132122
+t4lquad7: quadrupole,l=0.2,k1=-2.99792458
+t4lquad8: quadrupole,l=0.2,k1=2.99792458
+t4lend2: marker
+t4c2start: marker
+t4cdip4: sbend,l=0.40591689019967563240521389826157,angle=0.04156854994364317792168089075899,tilt=3.1415926535897932384626433832795,e2=0.04156854994364317792168089075899,k2= 2.8,hgap= 0.025,fint= 0.45
+t4cdip5: sbend,l=0.4055167749801589486867267480415,angle=0.08313709988728635584336178151798,e1=0.04156854994364317792168089075899,e2=0.04156854994364317792168089075899,k2= 2.8,hgap= 0.025,fint= 0.45
+t4cdip6: sbend,l=0.40591689019967563240521389826157,angle=0.04156854994364317792168089075899,tilt=3.1415926535897932384626433832795,e1=0.04156854994364317792168089075899,k2= 2.8,hgap= 0.025,fint= 0.45
+t4cquad3: quadrupole,l= 0.0925,k1=-0.57103325333333333333333333333333
+t4cquad4: quadrupole,l= 0.0925,k1=0.57103325333333333333333333333333
+t4c2end: marker
+intend: marker
+INT$END: MARKER
+T4CD1: DRIFT, L=0.600000
+T4CD2: DRIFT, L=0.065000
+T4CD3: DRIFT, L=0.500000
+T4CD4: DRIFT, L=0.187162
+T4LD1: DRIFT, L=0.500000
+T4LD2: DRIFT, L=0.050000
+T4LD3: DRIFT, L=2.200000
+T4LD4: DRIFT, L=0.500000
+T4SD1: DRIFT, L=0.370515
+T4SD2: DRIFT, L=0.327549
+T4SD3: DRIFT, L=0.500000
+T4SD4: DRIFT, L=0.400000
+T4SD5: DRIFT, L=0.400000
+T4SD6: DRIFT, L=0.500000
+T4SD7: DRIFT, L=0.327549
+T4SD8: DRIFT, L=0.370515
+INTMD1: DRIFT, L=0.964520
+INTMD2: DRIFT, L=0.050000
+INTMD3: DRIFT, L=5.447097
+INTA1MD1: DRIFT, L=0.050000
+INTA1MD2: DRIFT, L=0.500000
+INTA1BD1: DRIFT, L=0.100000
+INTA1BD2: DRIFT, L=0.092000
+INTEXD1: DRIFT, L=0.050000
+INTEXD2: DRIFT, L=0.050000
+INTEXD3: DRIFT, L=0.050000
+INTEXD4: DRIFT, L=2.725678
+INTEXD5: DRIFT, L=0.150000
+INTA2MD1: DRIFT, L=0.050000
+INTA2MD2: DRIFT, L=0.500000
+INTA2BD1: DRIFT, L=0.500000
+INTA2BD2: DRIFT, L=0.178500
+INTA2BD3: DRIFT, L=0.178500
+INTA2BD4: DRIFT, L=0.500000
+INTA2BD5: DRIFT, L=0.247000
+INTMD4: DRIFT, L=1.000000
+INTWD1: DRIFT, L=0.502313
+INTMD5: DRIFT, L=1.000000
+INTMD6: DRIFT, L=0.050000
+INTMD7: DRIFT, L=6.556717
+INTMD8: DRIFT, L=0.050000
+INTMD9: DRIFT, L=0.964520
+
+
+!!-------------------------------
+!! INJECTION
+!!-------------------------------
+
+
+!! Matching sections: Injector to DBA and DBA to Cryomodule*/
+
+quaddub1: QUADRUPOLE, l = 0.08, k1 = -40.48562189
+quaddub2: QUADRUPOLE, l = 0.08, k1 = -9.07762944
+quaddub3: QUADRUPOLE, l = 0.08, k1 = 59.07709435
+quaddub4: QUADRUPOLE, l = 0.08, k1 = -51.56581403
+
+quaddub5: QUADRUPOLE, l = 0.08, k1 = 11.14788532
+quaddub6: QUADRUPOLE, l = 0.08, k1 = -9.388251433
+
+
+!!! 180 deg arc
+
+quadt1: quadrupole, l = 0.08, k1 = -19.49681088     
+quadt2a: quadrupole, l = 0.04, k1 =  38.7871204   
+quadt2b: quadrupole, l = 0.04, k1 =  38.7871204       
+quadt3: quadrupole, l = 0.08, k1 = -19.49681088  
+
+quadt4: quadrupole, l = 0.08, k1 = -19.49681088
+quadt5a: quadrupole, l = 0.04, k1 =  38.7871204      
+quadt5b: quadrupole, l = 0.04, k1 =  38.7871204          
+quadt6: quadrupole, l = 0.08, k1 = -19.49681088  
+
+quadd1: quadrupole, l = 0.08, k1 = -51.12040966 
+quadd2a: quadrupole, l = 0.04, k1 = 57.53267818
+quadd2b: quadrupole, l = 0.04, k1 = 57.53267818
+quadd3: quadrupole, l = 0.08, k1 = -51.17012784
+      
+dritri: drift, l = 0.32
+dridba: drift, l = 0.1459
+dridip: drift, l = 0.25
+dridip2: drift, l = 0.2
+driinj: drift, l = 0.27
+dridublett: DRIFT, l = 0.05
+dridub: DRIFT, l = 0.05
+dridub2: DRIFT, l = 0.1
+dridub3: DRIFT, l = 0.45
+dritesla : DRIFT, l = 0.470
+
+
+dip: sben, l = 0.3599173516239, angle = 0.78539816339, FINT = 0.4, HGAP = 0.025
+
+dubmid: marker
+dip2exit:marker
+dip4exit : marker
+dip3beg: marker
+dubend: marker
+injend: marker
+dub1end : MARKER
+dub2start : MARKER
+dub2end : MARKER
+DBA1mid : MARKER
+DBA2mid : MARKER
+
+TRIPLETT1: LINE = (dridip, quadt1, dritri, quadt2a, DBA1mid,quadt2b, dritri, quadt3, dridip)
+TRIPLETT2: LINE = (dridip, quadt4, dritri, quadt5a, DBA2mid, quadt5b, dritri, quadt6, dridip)
+DBA1: LINE = (dip, TRIPLETT1, dip, dip2exit)
+DBA2: LINE = (dip3beg, dip, TRIPLETT2, dip, dip4exit)
+DUBTRY: LINE = (dridip2, quadd1, dridba, quadd2a, dubmid, quadd2b, dridba, quadd3, dridip2, dubend)
+DUBLETT1: LINE = (driinj, quaddub1, dridublett, quaddub2, driinj, quaddub3, dridublett, quaddub4, driinj, dub1end)
+DUBLETT2: LINE = (dub2start, dritesla, quaddub5, dridub, quaddub6, dritesla, dub2end)
+
+
+
+!!---------------------------
+!! BEAMLINES
+!!---------------------------
+
+
+T1: LINE=(T1START,T1LSTART,T1LD1,T1LQUAD1,T1LD2,T1LQUAD2,T1LD3,T1LEND,T1SSTART,T1SDIP1,T1SD1,T1SDIP2,T1SD2,T1SQUAD1,T1SD3,T1SQUAD2,T1SMIDDLE,T1SQUAD2B,T1SD3,T1SQUAD3,T1SD2,T1SDIP3,T1SD4,T1SDIP4,T1SEND,T1ASTART,T1MD1,T1MQUAD1,T1MD2,T1MQUAD2,T1MD3,T1ADIP1,T1BD1,T1BQUAD1,T1BD2,T1BQUAD2,T1BD3,T1BQUAD3,T1BD4,T1ADIP2,T1BD5,T1BQUAD4,T1BD6,T1AMIDDLE,PT1,BR1,T1BD6,T1BQUAD5,T1BD5,T1ADIP3,T1BD4,T1BQUAD6,T1BD3,T1BQUAD7,T1BD2,T1BQUAD8,T1BD1,T1ADIP4,T1MD3,T1MQUAD3,T1MD2,T1MQUAD4,T1MD1,T1AEND,T1SSTART2,T1SDIP5,T1SD4,T1SDIP6,T1SD2,T1SQUAD4,T1SD3,T1SQUAD5,T1SMIDDLE2,T1SQUAD5B,T1SD3,T1SQUAD6,T1SD2,T1SDIP7,T1SD1,T1SDIP8,T1SEND2,T1LSTART2,T1LD3,T1LQUAD3,T1LD2,T1LQUAD4,T1LD1,T1LEND2,T1END,T1$END)
+T1D: LINE=(T1START,T1LSTART,T1LD1,T1LQUAD1,T1LD2,T1LQUAD2,T1LD3,T1LEND,T1SSTART,T1SDIP1,T1SD1,T1SDIP2,T1SD2,T1SQUAD1,T1SD3,T1SQUAD2,T1SMIDDLE,T1SQUAD2B,T1SD3,T1SQUAD3,T1SD2,T1SDIP3,T1SD4,T1SDIP4,T1SEND,T1ASTART,T1MD1,T1MQUAD1,T1MD2,T1MQUAD2,T1MD3,T1ADIP1,T1BD1,T1BQUAD1,T1BD2,T1BQUAD2,T1BD3,T1BQUAD3,T1BD4,T1ADIP2,T1BD5,T1BQUAD4,T1BD6,T1AMIDDLE,PT1D,BR1D,T1BD6,T1BQUAD5,T1BD5,T1ADIP3,T1BD4,T1BQUAD6,T1BD3,T1BQUAD7,T1BD2,T1BQUAD8,T1BD1,T1ADIP4,T1MD3,T1MQUAD3,T1MD2,T1MQUAD4,T1MD1,T1AEND,T1SSTART2,T1SDIP5,T1SD4,T1SDIP6,T1SD2,T1SQUAD4,T1SD3,T1SQUAD5,T1SMIDDLE2,T1SQUAD5B,T1SD3,T1SQUAD6,T1SD2,T1SDIP7,T1SD1,T1SDIP8,T1SEND2,T1LSTART2,T1LD3,T1LQUAD3,T1LD2,T1LQUAD4,T1LD1,T1LEND2,T1END,T1$END)
+T2: LINE=(T2START,T2C1START,T2CD1,T2CQUAD1,T2CD2,T2CQUAD2,T2CD3,T2CDIP1,T2CD4,T2CDIP2,T2CD4,T2CDIP3,T2C1END,T2LSTART,T2LD1,T2LQUAD1,T2LD2,T2LQUAD2,T2LD3,T2LQUAD3,T2LD2,T2LQUAD4,T2LD4,T2LEND,T2SSTART,T2SDIP1,T2SD1,T2SDIP2,T2SD2,T2SQUAD1,T2SD3,T2SQUAD2,T2SMIDDLE,T2SQUAD2B,T2SD3,T2SQUAD3,T2SD2,T2SDIP3,T2SD4,T2SDIP4,T2SEND,T2ASTART,T2MD1,T2MQUAD1,T2MD2,T2MQUAD2,T2MD3,T2ADIP1,T2BD1,T2BQUAD1,T2BD2,T2BQUAD2,T2BD3,T2BQUAD3,T2BD4,T2ADIP2,T2BD5,T2BQUAD4,T2BD6,T2AMIDDLE,PT2,BR2,T2BD6,T2BQUAD5,T2BD5,T2ADIP3,T2BD4,T2BQUAD6,T2BD3,T2BQUAD7,T2BD2,T2BQUAD8,T2BD1,T2ADIP4,T2MD3,T2MQUAD3,T2MD2,T2MQUAD4,T2MD1,T2AEND,T2SSTART2,T2SDIP5,T2SD4,T2SDIP6,T2SD2,T2SQUAD4,T2SD3,T2SQUAD5,T2SMIDDLE2,T2SQUAD5B,T2SD3,T2SQUAD6,T2SD2,T2SDIP7,T2SD1,T2SDIP8,T2SEND2,T2LSTART2,T2LD4,T2LQUAD5,T2LD2,T2LQUAD6,T2LD3,T2LQUAD7,T2LD2,T2LQUAD8,T2LD1,T2LEND2,T2C2START,T2CDIP4,T2CD4,T2CDIP5,T2CD4,T2CDIP6,T2CD3,T2CQUAD3,T2CD2,T2CQUAD4,T2CD1,T2C2END,T2END,T2$END)
+T2D: LINE=(T2START,T2C1START,T2CD1,T2CQUAD1,T2CD2,T2CQUAD2,T2CD3,T2CDIP1,T2CD4,T2CDIP2,T2CD4,T2CDIP3,T2C1END,T2LSTART,T2LD1,T2LQUAD1,T2LD2,T2LQUAD2,T2LD3,T2LQUAD3,T2LD2,T2LQUAD4,T2LD4,T2LEND,T2SSTART,T2SDIP1,T2SD1,T2SDIP2,T2SD2,T2SQUAD1,T2SD3,T2SQUAD2,T2SMIDDLE,T2SQUAD2B,T2SD3,T2SQUAD3,T2SD2,T2SDIP3,T2SD4,T2SDIP4,T2SEND,T2ASTART,T2MD1,T2MQUAD1,T2MD2,T2MQUAD2,T2MD3,T2ADIP1,T2BD1,T2BQUAD1,T2BD2,T2BQUAD2,T2BD3,T2BQUAD3,T2BD4,T2ADIP2,T2BD5,T2BQUAD4,T2BD6,T2AMIDDLE,PT2D,BR2D,T2BD6,T2BQUAD5,T2BD5,T2ADIP3,T2BD4,T2BQUAD6,T2BD3,T2BQUAD7,T2BD2,T2BQUAD8,T2BD1,T2ADIP4,T2MD3,T2MQUAD3,T2MD2,T2MQUAD4,T2MD1,T2AEND,T2SSTART2,T2SDIP5,T2SD4,T2SDIP6,T2SD2,T2SQUAD4,T2SD3,T2SQUAD5,T2SMIDDLE2,T2SQUAD5B,T2SD3,T2SQUAD6,T2SD2,T2SDIP7,T2SD1,T2SDIP8,T2SEND2,T2LSTART2,T2LD4,T2LQUAD5,T2LD2,T2LQUAD6,T2LD3,T2LQUAD7,T2LD2,T2LQUAD8,T2LD1,T2LEND2,T2C2START,T2CDIP4,T2CD4,T2CDIP5,T2CD4,T2CDIP6,T2CD3,T2CQUAD3,T2CD2,T2CQUAD4,T2CD1,T2C2END,T2END,T2$END)
+T3: LINE=(T3START,T3LSTART,T3LD1,T3LQUAD1,T3LD2,T3LQUAD2,T3LD3,T3LEND,T3SSTART,T3SDIP1,T3SD1,T3SDIP2,T3SD2,T3SDIP3,T3SD3,T3SQUAD1,T3SD4,T3SQUAD2,T3SMIDDLE,T3SQUAD2B,T3SD5,T3SQUAD3,T3SD6,T3SDIP4,T3SD7,T3SDIP5,T3SD8,T3SDIP6,T3SEND,T3ASTART,T3MD1,T3MQUAD1,T3MD2,T3MQUAD2,T3MD3,T3ADIP1,T3BD1,T3BQUAD1,T3BD2,T3BQUAD2,T3BD3,T3BQUAD3,T3BD4,T3ADIP2,T3BD5,T3BQUAD4,T3BD6,T3AMIDDLE,PT3,BR3,T3BD6,T3BQUAD5,T3BD5,T3ADIP3,T3BD4,T3BQUAD6,T3BD3,T3BQUAD7,T3BD2,T3BQUAD8,T3BD1,T3ADIP4,T3MD3,T3MQUAD3,T3MD2,T3MQUAD4,T3MD1,T3AEND,T3SSTART2,T3SDIP7,T3SD8,T3SDIP8,T3SD7,T3SDIP9,T3SD6,T3SQUAD4,T3SD5,T3SQUAD5,T3SMIDDLE2,T3SQUAD5B,T3SD4,T3SQUAD6,T3SD3,T3SDIP10,T3SD2,T3SDIP11,T3SD1,T3SDIP12,T3SEND2,T3LSTART2,T3LD3,T3LQUAD3,T3LD2,T3LQUAD4,T3LD1,T3LEND2,T3END,T3$END)
+T3D: LINE=(T3START,T3LSTART,T3LD1,T3LQUAD1,T3LD2,T3LQUAD2,T3LD3,T3LEND,T3SSTART,T3SDIP1,T3SD1,T3SDIP2,T3SD2,T3SDIP3,T3SD3,T3SQUAD1,T3SD4,T3SQUAD2,T3SMIDDLE,T3SQUAD2B,T3SD5,T3SQUAD3,T3SD6,T3SDIP4,T3SD7,T3SDIP5,T3SD8,T3SDIP6,T3SEND,T3ASTART,T3MD1,T3MQUAD1,T3MD2,T3MQUAD2,T3MD3,T3ADIP1,T3BD1,T3BQUAD1,T3BD2,T3BQUAD2,T3BD3,T3BQUAD3,T3BD4,T3ADIP2,T3BD5,T3BQUAD4,T3BD6,T3AMIDDLE,PT3D,BR3D,T3BD6,T3BQUAD5,T3BD5,T3ADIP3,T3BD4,T3BQUAD6,T3BD3,T3BQUAD7,T3BD2,T3BQUAD8,T3BD1,T3ADIP4,T3MD3,T3MQUAD3,T3MD2,T3MQUAD4,T3MD1,T3AEND,T3SSTART2,T3SDIP7,T3SD8,T3SDIP8,T3SD7,T3SDIP9,T3SD6,T3SQUAD4,T3SD5,T3SQUAD5,T3SMIDDLE2,T3SQUAD5B,T3SD4,T3SQUAD6,T3SD3,T3SDIP10,T3SD2,T3SDIP11,T3SD1,T3SDIP12,T3SEND2,T3LSTART2,T3LD3,T3LQUAD3,T3LD2,T3LQUAD4,T3LD1,T3LEND2,T3END,T3$END)
+Intern: LINE=(INT$START,INTSTART,T4C1START,T4CD1,T4CQUAD1,T4CD2,T4CQUAD2,T4CD3,T4CDIP1,T4CD4,T4CDIP2,T4CD4,T4CDIP3,T4C1END,T4LSTART,T4LD1,T4LQUAD1,T4LD2,T4LQUAD2,T4LD3,T4LQUAD3,T4LD2,T4LQUAD4,T4LD4,T4LEND,T4SSTART,T4SDIP1,T4SD1,T4SDIP2,T4SD2,T4SDIP3,T4SD3,T4SQUAD1,T4SD4,T4SQUAD2,T4SMIDDLE,T4SQUAD2B,T4SD5,T4SQUAD3,T4SD6,T4SDIP4,T4SD7,T4SDIP5,T4SD8,T4SDIP6,T4SEND,INTM1START,INTMD1,INTMQUAD1,INTMD2,INTMQUAD2,INTMD3,INTM1END,INTA1START,INTA1MQUAD1,INTA1MD1,INTA1MQUAD2,INTA1MD2,INTA1DIP1,INTA1BD1,INTA1BQUAD1,INTA1BD2,INTA1BQUAD2,INTA1MIDDLE,INTA1BQUAD2B,INTA1BD2,INTA1BQUAD3,INTA1BD1,INTA1DIP2,INTA1MD2,INTA1MQUAD3,INTA1MD1,INTA1MQUAD4,INTA1END,INTEXSTART,INTEXD1,INTEXQUAD1,INTEXD2,INTEXQUAD2,INTEXD3,INTEXQUAD3,INTEXD4,INTEXD5,INTEXMIDDLE,INTEXD5,INTEXD4,INTEXQUAD4,INTEXD3,INTEXQUAD5,INTEXD2,INTEXQUAD6,INTEXD1,INTEXEND,INTA2START,INTA2MQUAD1,INTA2MD1,INTA2MQUAD2,INTA2MD2,INTA2DIP1,INTA2BD1,INTA2BQUAD1,INTA2BD2,INTA2BQUAD2,INTA2BD3,INTA2BQUAD3,INTA2BD4,INTA2DIP2,INTA2BD5,INTA2BQUAD4,INTA2MIDDLE,INTA2BQUAD4B,INTA2BD5,INTA2DIP3,INTA2BD4,INTA2BQUAD5,INTA2BD3,INTA2BQUAD6,INTA2BD2,INTA2BQUAD7,INTA2BD1,INTA2DIP4,INTA2MD2,INTA2MQUAD3,INTA2MD1,INTA2MQUAD4,INTA2END,INTM2START,INTMD4,INTWDIP1,INTWD1,INTWDIP2,INTWMIDDLE,INTWDIP3,INTWD1,INTWDIP4,INTMD5,INTMQUAD3,INTMD6,INTMQUAD4,INTMD7,INTMQUAD5,INTMD8,INTMQUAD6,INTMD9,INTM2END,T4SSTART2,T4SDIP7,T4SD8,T4SDIP8,T4SD7,T4SDIP9,T4SD6,T4SQUAD4,T4SD5,T4SQUAD5,T4SMIDDLE2,T4SQUAD5B,T4SD4,T4SQUAD6,T4SD3,T4SDIP10,T4SD2,T4SDIP11,T4SD1,T4SDIP12,T4SEND2,T4LSTART2,T4LD4,T4LQUAD5,T4LD2,T4LQUAD6,T4LD3,T4LQUAD7,T4LD2,T4LQUAD8,T4LD1,T4LEND2,T4C2START,T4CDIP4,T4CD4,T4CDIP5,T4CD4,T4CDIP6,T4CD3,T4CQUAD3,T4CD2,T4CQUAD4,T4CD1,T4C2END,INTEND,INT$END)
+
+
+Injection: LINE = (DUBLETT1, DBA1, DUBTRY, DBA2, DUBLETT2)
+InjectionCav: LINE = (DUBLETT1, DBA1, DUBTRY, DBA2, DUBLETT2, Cryo_Module_A)
+InjectionCavToT1: LINE = (InjectionCav, T1)
+!InjectionAccFull: LINE = (Injection, Cryo_Module_A, T1, Cryo_Module_A, T2, Cryo_Module_A, T3, Cryo_Module_A, Intern,Cryo_Module_D,T3,Cryo_Module_D,T2,Cryo_Module_D,T1,Cryo_Module_D)
+InjectionAccFull: LINE = (Injection, Cryo_Module_A, T1, Cryo_Module_A, T2, Cryo_Module_A, T3, Cryo_Module_A, Intern,Cryo_Module_D,T3D,Cryo_Module_D,T2D,Cryo_Module_D,T1D,Cryo_Module_D)
+
+InjectionAccFull_chrom00: LINE = (Injection, Cryo_Module_A14)
+InjectionAccFull_chrom01: LINE = (Injection, Cryo_Module_A34)
+InjectionAccFull_chrom02: LINE = (Injection, Cryo_Module_A, T1, Cryo_Module_A14)
+InjectionAccFull_chrom03: LINE = (Injection, Cryo_Module_A, T1, Cryo_Module_A34)
+InjectionAccFull_chrom04: LINE = (Injection, Cryo_Module_A, T1, Cryo_Module_A, T2, Cryo_Module_A14)
+InjectionAccFull_chrom05: LINE = (Injection, Cryo_Module_A, T1, Cryo_Module_A, T2, Cryo_Module_A34)
+InjectionAccFull_chrom06: LINE = (Injection, Cryo_Module_A, T1, Cryo_Module_A, T2, Cryo_Module_A, T3, Cryo_Module_A14)
+InjectionAccFull_chrom07: LINE = (Injection, Cryo_Module_A, T1, Cryo_Module_A, T2, Cryo_Module_A, T3, Cryo_Module_A34)
+InjectionAccFull_chrom08: LINE = (Injection, Cryo_Module_A, T1, Cryo_Module_A, T2, Cryo_Module_A, T3, Cryo_Module_A, Intern,Cryo_Module_D14)
+InjectionAccFull_chrom09: LINE = (Injection, Cryo_Module_A, T1, Cryo_Module_A, T2, Cryo_Module_A, T3, Cryo_Module_A, Intern,Cryo_Module_D34)
+InjectionAccFull_chrom10: LINE = (Injection, Cryo_Module_A, T1, Cryo_Module_A, T2, Cryo_Module_A, T3, Cryo_Module_A, Intern,Cryo_Module_D,T3D,Cryo_Module_D14)
+InjectionAccFull_chrom11: LINE = (Injection, Cryo_Module_A, T1, Cryo_Module_A, T2, Cryo_Module_A, T3, Cryo_Module_A, Intern,Cryo_Module_D,T3D,Cryo_Module_D34)
+InjectionAccFull_chrom12: LINE = (Injection, Cryo_Module_A, T1, Cryo_Module_A, T2, Cryo_Module_A, T3, Cryo_Module_A, Intern,Cryo_Module_D,T3D,Cryo_Module_D,T2D,Cryo_Module_D14)
+InjectionAccFull_chrom13: LINE = (Injection, Cryo_Module_A, T1, Cryo_Module_A, T2, Cryo_Module_A, T3, Cryo_Module_A, Intern,Cryo_Module_D,T3D,Cryo_Module_D,T2D,Cryo_Module_D34)
+InjectionAccFull_chrom14: LINE = (Injection, Cryo_Module_A, T1, Cryo_Module_A, T2, Cryo_Module_A, T3, Cryo_Module_A, Intern,Cryo_Module_D,T3D,Cryo_Module_D,T2D,Cryo_Module_D,T1D,Cryo_Module_D14)
+InjectionAccFull_chrom15: LINE = (Injection, Cryo_Module_A, T1, Cryo_Module_A, T2, Cryo_Module_A, T3, Cryo_Module_A, Intern,Cryo_Module_D,T3D,Cryo_Module_D,T2D,Cryo_Module_D,T1D,Cryo_Module_D34)
+
+
